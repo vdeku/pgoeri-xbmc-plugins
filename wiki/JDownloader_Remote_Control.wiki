@@ -10,6 +10,6 @@
 
 = Information on jdownloader.org =
 
-*Help Page:* [http://jdownloader.org/knowledge/wiki/addons/list/remotecontrol]
+*Help Page:* http://jdownloader.org/knowledge/wiki/addons/list/remotecontrol
 
-*Forum Thread:* http://board.jdownloader.org/showthread.php?t=854]
+*Forum Thread:* http://board.jdownloader.org/showthread.php?t=854
