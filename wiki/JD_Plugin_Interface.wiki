@@ -1,0 +1,35 @@
+#summary How to use the jdownloader plugin from other xbmc addons
+
+= addon.xml =
+
+Make sure to add a dependency to your addon definition.
+e.g:
+{{{
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+    <import addon="plugin.program.jdownloader" version="1.0.1"/>
+  </requires>
+}}}
+
+
+= interface =
+
+Use the following python code to add links/container:
+{{{
+__JDaddonID__ = "plugin.program.jdownloader"
+xbmc.executebuiltin('XBMC.RunPlugin(plugin://plugin.program.jdownloader/?action=addlink&url=%s)')
+xbmc.executebuiltin('XBMC.RunPlugin(plugin://plugin.program.jdownloader/?action=addcontainer&url=/tmp/a.dlc)')
+}}}
+
+= settings =
+
+There are two general settings for adding links/containers:
+*grabber:* Should the new stuff be added to the link grabber or directly to the download list
+*start:* Should the download be started afterwards
+
+It would be great, if the you could add a context menu entry in your plugin/script so that the user could easily modify the jd-plugin-settings
+
+e.g.
+{{{
+xbmcaddon.Addon(id='plugin.program.jdownloader').openSettings()
+}}}
