@@ -28,7 +28,8 @@ There are two general settings for adding links/containers:
 
 *start:* Should the download be started afterwards
 
-It would be great, if you could add a context menu entry in your plugin/script so that the user could easily modify the jd-plugin-settings
+~~It would be great, if you could add a context menu entry in your plugin/script so that the user could easily modify the jd-plugin-settings~~
+After giving it some thought, I would say it is good enough, if you can launch the jd-plugin itself from another plugin.
 
 e.g.
 {{{
