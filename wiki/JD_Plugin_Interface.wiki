@@ -34,3 +34,12 @@ e.g.
 {{{
 xbmcaddon.Addon(id='plugin.program.jdownloader').openSettings()
 }}}
+
+= JD-Plugin itself =
+
+In my opinion it would be also nice to give the user the possibility to launch the jd-plugin directly from your plugin.
+
+It could work like this: TODO: verify the code example
+{{{
+xbmc.executebuiltin('XBMC.RunPlugin(plugin://plugin.program.jdownloader)')
+}}}
