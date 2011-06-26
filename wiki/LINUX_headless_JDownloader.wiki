@@ -23,4 +23,7 @@ sleep 100
 sudo -u <user> <jdownloader-directory>/jd.sh &
 }}}
 
+You can download the jd.sh script from the linux section on http://jdownloader.org/download/index.
 You will also have to modify jd.sh to your needs. (Mainly enter the jd directory)
+
+Of course, you don't have do use the jd.sh script, you could also start jdownlader.jar directly.
