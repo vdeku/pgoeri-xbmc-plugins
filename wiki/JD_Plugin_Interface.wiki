@@ -20,6 +20,11 @@ xbmc.executebuiltin('XBMC.RunPlugin(plugin://plugin.program.jdownloader/?action=
 xbmc.executebuiltin('XBMC.RunPlugin(plugin://plugin.program.jdownloader/?action=addcontainer&url=/tmp/a.dlc)')
 }}}
 
+Use the following python code to reconnect the internet connection:
+{{{
+xbmc.executebuiltin('XBMC.RunPlugin(plugin://plugin.program.jdownloader/?action=reconnect)')
+}}}
+
 = Settings =
 
 There are two general settings for adding links/containers:
