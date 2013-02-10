@@ -1,4 +1,5 @@
 #summary HowTo install jdownloader without an xserver
+#labels Featured
 
 = Introduction =
 
