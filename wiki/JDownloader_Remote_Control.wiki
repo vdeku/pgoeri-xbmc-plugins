@@ -1,4 +1,5 @@
 #summary How to activate the 'Remote Control' extension in JDownloader
+#labels Featured
 
 = Extensions =
 
